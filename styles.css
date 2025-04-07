@@ -1,9 +1,3 @@
-/* Change form border color */
-form {
-    border: 2px solid green !important;
-    border-radius: 10px;
-    padding: 10px;
-}
 
 /* Change button colors */
 button[type="submit"], .next-button {
@@ -12,37 +6,4 @@ button[type="submit"], .next-button {
     border: none;
 }
 
-button[type="submit"]:hover, .next-button:hover {
-    background-color: darkgreen !important;
-}
-iframe {
-    border: 3px solid green; /* Your border color */
-    width: 100%;
-    height: 500px;
-}
 
-body {
-    font-family: Trebuchet MS, sans-serif !important;
-    background-color: #f0f0f0;
-    }
-/* Change the text color of labels */
-label {
-    color: black; /* black text */
-}
-
-/* Change the font color of multiple choice options */
-input[type="radio"], input[type="checkbox"] {
-    color: black; /* black font for options */
-}
-
-/* Change the Next and Submit buttons */
-button {
-    background-color: #4CAF50; /* green background */
-    color: white; /* white text */
-    border: 1px solid #008000; /* green border */
-}
-
-/* Change the color of links (e.g., 'Next' and 'Submit' links if they are styled as links) */
-a {
-    color: #4CAF50; /* green text */
-}
