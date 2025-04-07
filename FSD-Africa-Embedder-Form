@@ -10,11 +10,7 @@
             width: 100%;
             height: 500px;
         }
-    </style>
-</head>
-<body>
-    <iframe src="https://ee.kobotoolbox.org/x/pkPrbqWA" width="100%" height="500px"></iframe>
-</body>
+
 /* Change form border color */
 form {
     border: 2px solid green !important;
@@ -33,4 +29,9 @@ button[type="submit"]:hover, .next-button:hover {
     background-color: darkgreen !important;
 }
 
+    </style>
+</head>
+<body>
+    <iframe src="https://ee.kobotoolbox.org/x/pkPrbqWA" width="100%" height="500px"></iframe>
+</body>
 </html>
