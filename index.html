@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FSD Africa Ethics Awareness Survey</title>
-    <style>
-            /* Change form border color */
-            form {
-                border: 2px solid green!important;
-                border-radius: 15px;
-                padding: 12px;
-            }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FSD Africa Ethics Awareness Survey</title>
+  <style>
+    body {
+      background-color: #f0fff0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .form-wrapper {
+      border: 4px solid #2e8b57; /* green border */
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #ffffff;
+      max-width: 800px;
+      margin: 0 auto;
+      box-shadow: 0 0 20px rgba(0, 128, 0, 0.2);
+    }
+
+    iframe {
+      width: 100%;
+      height: 900px;
+      border: none;
+    }
+
+    img {
+      display: block;
+      margin-left: 0; /* left-align */
+      margin-bottom: 15px;
+    }
+
+    /* Try to override some Enketo styles (buttons) with more general styling */
+    ::part(button), button, .btn {
+      background-color: #2e8b57 !important;
+      color: white !important;
+      border: none !important;
+      border-radius: 5px !important;
+      padding: 10px 20px !important;
+      font-size: 16px !important;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <iframe src="https://ee.kobotoolbox.org/x/pkPrbqWA" width="100%" height="500px"></iframe>
-    
+  <div class="form-wrapper">
+    <h2>Survey Form</h2>
+    <p>Please complete the form below:</p>
+    <iframe src="https://ee.kobotoolbox.org/x/pkPrbqWA"></iframe>
+  </div>
 </body>
 </html>
+
+
