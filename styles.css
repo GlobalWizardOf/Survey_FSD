@@ -25,3 +25,24 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     }
+/* Change the text color of labels */
+label {
+    color: black; /* black text */
+}
+
+/* Change the font color of multiple choice options */
+input[type="radio"], input[type="checkbox"] {
+    color: black; /* black font for options */
+}
+
+/* Change the Next and Submit buttons */
+button {
+    background-color: #4CAF50; /* green background */
+    color: white; /* white text */
+    border: 1px solid #008000; /* green border */
+}
+
+/* Change the color of links (e.g., 'Next' and 'Submit' links if they are styled as links) */
+a {
+    color: #4CAF50; /* green text */
+}
