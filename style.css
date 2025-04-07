@@ -1,0 +1,17 @@
+/* Change form border color */
+form {
+    border: 2px solid green !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Change button colors */
+button[type="submit"], .next-button {
+    background-color: green !important;
+    color: white !important;
+    border: none;
+}
+
+button[type="submit"]:hover, .next-button:hover {
+    background-color: darkgreen !important;
+}
